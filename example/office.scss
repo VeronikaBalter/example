@@ -1,0 +1,454 @@
+.office{
+    margin-bottom: 68px;
+    tbody > tr:hover{
+        cursor: default !important;
+    }
+    .calendar-btn{
+        .b-form-btn-label-control.form-control > .form-control {
+            display: none;
+        }
+        .b-form-btn-label-control.form-control{
+            width: 20px;
+            height: 20px;
+            border: 0px;
+            &:hover,
+            &:active,
+            &:focus {
+                border: 0px !important;
+            }
+        }
+        .form-control.focus{
+            border: 0px !important;
+        }
+        .b-form-btn-label-control.form-control > .btn{
+            padding: 0px;
+        }
+    }
+    .field-successful{
+        color: $green;
+        background-color: $green-20;
+        padding: 8px 21px;
+        border-radius: 6px;
+        text-align: center;
+    }
+    .field-warning{
+        color: $orange;
+        background-color: $orange-20;
+        padding: 8px 21px;
+        border-radius: 6px;
+        text-align: center;
+    }
+    .field-error{
+        color: $red;
+        background-color: $red-20;
+        padding: 8px 21px;
+        border-radius: 6px;
+        text-align: center;
+    }
+    .overview{
+        .empty-section{
+            margin-top: 40px;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .name{
+            color: $black;
+            font-weight: 700;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .section-title{
+            font-weight: 700;
+            font-size: 16px;
+            margin-top: 36px;
+            .icon{
+                font-size: 20px;
+            }
+        }
+        .statistics-card-overview{
+            &:hover{
+                background-color: $bg !important;
+            }
+        }
+
+        .member{
+            padding-top: 3px;
+            .position{
+                color: $gray;
+            }
+        }
+        .office{
+            .address{
+                font-weight: 700;
+                font-size: 14px;
+                margin-bottom: 8px;
+            }
+            .day{
+                color: $dark-gray;
+                margin-bottom: 8px;
+            }
+        }
+        .credentials{
+            .title{
+                font-weight: 700;
+                font-size: 14px;
+            }
+            .icon{
+                color: $gray;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            hr{
+                border-top: 1px solid $gray;
+            }
+        }
+        .office-team{
+            
+            .position{
+                color: $gray;
+            }
+        }
+        .star{
+            margin-top: -4px;
+            margin-left: 9px;
+        }
+        .icon-member-medium{
+            border: 0px;
+            width: 40px;
+            height: 40px;
+            padding-top: 6px;
+            padding-left: 6px;
+        }
+        
+    }
+    .communication{
+        .card .card-body{
+            padding: 0px !important;        
+        }
+        .tasks{
+            border-right: 1px solid $light-gray;
+            padding: 20px 0px !important;
+            .title{
+                font-weight: 700;
+                font-size: 20px;
+                margin-left: 6px;
+                margin-top: 8px;
+                cursor: pointer;
+                .count-tasks{
+                    color: $gray;
+                }
+                .arrow{
+                    font-size: 18px;
+                }
+            }
+            .filters-row{
+                margin-top: 16px;
+                margin-bottom: 13px;
+                margin-left: 20px;
+            }
+            .task{
+                padding: 13px 20px 15px;
+                cursor: pointer;
+                .date{
+                    color: $gray;
+                    margin-left: 5px;
+                }
+                &:hover{
+                    background-color: $green-20;
+                }
+            }
+            .task-selected{
+                background-color: $green-20;
+            }
+            .archive{
+                color: $gray;
+                cursor: pointer;
+                margin-bottom: 4px;
+                padding-left: 20px;
+                .arrow{
+                    padding-left: 2px;
+                    margin-top: 2px;
+                }
+            }
+        }
+        .report{
+            padding: 20px !important;
+            .mark-complete{
+                border: 1px solid $light-gray;
+                color: $gray;
+                padding: 10px 15px;
+                width: 140px;
+                border-radius: 6px;
+                cursor: pointer;
+                &:hover{
+                    border-color: $gray;
+                }
+            }
+            .more{
+                font-size: 20px;
+                color: $gray;
+                padding-top: 10px;
+                cursor: pointer;
+            }
+            .comments-title{
+                font-weight: 700;
+                font-size: 16px;
+            }
+            .comments-icon{
+                font-size: 20px;
+                color: $gray;
+                cursor: pointer;
+            }
+            .messages{
+                max-height: 210px;
+            }
+        }
+    }
+    .insurance-terms{
+        .is-icon-check{
+            background-color: $green;
+            color: $white !important;
+            border-radius: 20px;
+            font-size: 10px;
+            padding: 2px;
+            position: absolute;
+            margin-left: -10px;
+            margin-top: 10px;
+        }
+        
+        .statusTh{
+            width: 220px;
+            text-align: end ;
+        }
+    }
+    .month{
+        margin-bottom: 16px;
+        .title{
+            font-weight: 700;
+            font-size: 20px;
+            margin: 18px 5px 0px;
+        }
+        .arrow{
+            font-size: 30px;
+            padding-top: 10px;
+            font-size: 25px;
+            padding-top: 7px !important;
+            cursor: pointer;
+            &:hover{
+                font-weight: 800;
+                color: $green;
+            }
+        }
+        .arrow-dis{
+            color: $light-gray;
+            font-size: 30px;
+            padding-top: 10px;
+            font-size: 25px;
+            padding-top: 7px !important;
+        }
+        
+    }
+    .checkboxTh{
+        min-width: 100px;
+    }
+    .efd-deposit{
+        .actionTh{
+            width: 80px !important;
+        }
+    }
+    .over-90{
+        .is-speaking-bubble{
+            background-color: $green;
+            color: $white !important;
+            border-radius: 20px;
+            font-size: 10px;
+            padding: 6px;
+            position: absolute;
+            margin-left: -8px;
+            margin-top: -4px;
+        }
+    }
+    .report{
+        .title{
+            font-weight: 700;
+            font-size: 16px;
+            border-bottom: 1px solid $light-gray;
+            padding-bottom: 12px;
+            margin-top: 44px;
+        }
+        .chevron-left{
+            font-size: 20px;
+            &:hover{
+                font-weight: 800;
+            }
+        }
+        .add{
+            color: $green;
+            margin-top: 10px;
+            cursor: pointer;
+            .icon{
+                font-size: 18px;
+            }
+            &:hover{
+                color: $dark-green;
+            }
+        }
+        .close{
+            position: absolute;
+            margin-top: 10px;
+            font-size: 20px;
+            color: $red;
+            cursor: pointer;
+            &:hover{
+                color: $dark-red;
+            }
+        }
+    }
+    .weekly-numbers{
+        .aging-text{
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+        .aging{
+            width: 200px;
+            .vs__search{
+                color: $gray !important;
+            }
+        }
+    }
+    .postage-usage{
+        .actionTh{
+            width: 80px;
+            text-align: end;
+        }
+        .total-for-month{
+            margin: 20px -20px -20px;
+            padding: 20px;
+            border-top: 1px solid $light-gray;
+            font-weight: 700;
+            font-size: 16px;
+            color: $dark-gray;
+            .num{
+                color: $black;
+            }
+        }
+    }
+    .actionTh{
+        width: 100px;
+        text-align: end;
+    }
+    .monthly-review{
+        #monthly-review-table{
+            input[type=checkbox]{
+                cursor: auto;
+                &:hover{
+                    border: 1px solid $light-gray;
+                }
+            }
+            input:checked[type=checkbox]{
+                &:hover{
+                    border: 0px;
+                }
+
+            }
+        }
+        .percent{
+            border: 1px solid $light-gray;
+            border-radius: 4px;
+            padding: 12px 16px;
+        }
+        .percent-green{
+            color: $green;
+            border-color: $green;
+        }
+        .percent-label-green{
+            color: $green;
+        }
+        .percent-orange{
+            color: $orange;
+            border-color: $orange;
+        }
+        .percent-label-orange{
+            color: $orange;
+        }
+        .percent-red{
+            color: $red;
+            border-color: $red;
+        }
+        .percent-label-red{
+            color: $red;
+        }
+        .info-icon{
+            color: $white;
+            background-color: $gray;
+            border-radius: 25px;
+            width: 22px;
+            padding: 0px;
+            padding-left: 9px;
+            padding-top: 2px;
+            font-weight: 600;
+            cursor: pointer;
+            &:hover{
+                color: $black;
+                background-color: $light-gray;
+            }
+        }
+    }
+}
+#edit-office-hours{
+    .b-form-btn-label-control.form-control > .form-control{
+        padding: 6px !important;
+                
+    }
+    .btn-outline-secondary:hover, .btn-outline-secondary, .btn-outline-secondary{
+        display: none;
+    }
+    .b-icon.bi{
+        font-size: 80%;
+    }
+    .b-form-spinbutton.flex-column {
+        font-size: 12px;
+    }
+    .b-form-spinbutton.flex-column{
+        padding: 5px !important;
+    }
+}
+#edit-members{
+    .member{
+        margin-top: 10px;
+        .position{
+            color: $gray;
+        }
+        .star{
+            margin-top: -4px;
+            margin-left: 4px;
+        }
+        .icon{
+            font-size: 20px;
+            color: $red;
+            padding-top: 10px;
+            cursor: pointer;
+        }
+    }
+}
+#edit-office{
+    .team{
+        margin-top: 10px;
+        .position{
+            color: $gray;
+        }
+        .star{
+            margin-top: -4px;
+            margin-left: 4px;
+        }
+        .icon{
+            font-size: 20px;
+            color: $red;
+            padding-top: 10px;
+            cursor: pointer;
+        }
+    }
+}
