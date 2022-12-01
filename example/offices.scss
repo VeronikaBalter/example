@@ -1,0 +1,29 @@
+.offices{
+    .search{
+        max-width: 400px;  
+    }
+    .name{
+        color: $black;
+        font-weight: 700;
+    }
+    .logo-empty{
+        width: 50px;
+        height: 50px;
+        padding-top: 13px;
+        padding-left: 10px;
+        font-size: 25px;
+        border: 2px solid white;
+    }
+    .percent{
+        font-size: 16px;
+        padding: 11px 23px;
+        width: 90px;
+    }
+    .insurance{
+        font-weight: 700;
+        font-size: 16px;
+        padding: 11px 25px;
+        border-radius: 6px;
+        width: 140px;
+    }
+}
